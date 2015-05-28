@@ -1,0 +1,5 @@
+json.avg_speed pitcher.avg_of_metric_by("speed", pitch_type, game)
+json.avg_swing_rate number_to_percentage(pitcher.avg_of_metric_by("swing", pitch_type, game), precision: 2)
+json.avg_horizontal_movement pitcher.avg_of_metric_by("horizontal_movement", pitch_type, game)
+json.avg_vertical_movement pitcher.avg_of_metric_by("vertical_movement", pitch_type, game)
+json.avg_spin_rate pitcher.avg_of_metric_by("spin_rate", pitch_type, game)
